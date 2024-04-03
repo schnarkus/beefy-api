@@ -1,5 +1,25 @@
 [
   {
+    "name": "aerodrome-usd+-sfrax",
+    "address": "0xbB38EeBd670A9F3cafe6D3170862ccD930cB25f9",
+    "gauge": "0xEc4288995734ca01eAfC97588658F37515823502",
+    "decimals": "1e18",
+    "chainId": 8453,
+    "beefyFee": 0.095,
+    "lp0": {
+      "address": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
+      "oracle": "tokens",
+      "oracleId": "baseUSD+",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0xe4796cCB6bB5DE2290C417Ac337F2b66CA2E770E",
+      "oracle": "tokens",
+      "oracleId": "sFRAX",
+      "decimals": "1e18"
+    }
+  },
+  {
     "name": "aerodrome-usdc-sfrax",
     "address": "0xf0e08Fa759B9C3099B0Dd63f73f79984AEb6254f",
     "gauge": "0x29b1f2295031d7e98CCD428fAcc65Ef30821771e",
