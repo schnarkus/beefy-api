@@ -1,5 +1,74 @@
 [
   {
+    "name": "aura-arb-wsteth-jitosol",
+    "address": "0x260Dbd54D87A10A0Fc9D08622Ebc969A3Bf4E6bb",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x3185e03aaF4f4D63ff9E622A689e055A5e2bD0fd",
+    "vaultPoolId": "0x260dbd54d87a10a0fc9d08622ebc969a3bf4e6bb000200000000000000000536",
+    "lsUrl": "https://eth-api.lido.fi/v1/protocol/steth/apr/sma",
+    "lsIndex": 1,
+    "dataPath": "$.data.smaApr",
+    "lsAprFactor": 1,
+    "balancerChargesFee": true,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "rewardGauge": "0x6D7A77226dc92aBEF378d9FF4624265CB7164325",
+        "oracleId": "AURA",
+        "decimals": "1e18"
+      },
+      {
+        "rewardGauge": "0xEdAC3863B994B2375A7FB5de7bD68b82324d3571",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "wstETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "JitoSOL",
+        "decimals": "1e9"
+      }
+    ]
+  },
+  {
+    "name": "aura-arb-sol-jitosol",
+    "address": "0xFB2f7eD572589940e24c5711c002aDC59D5e79Ef",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x821AF2221912E3784512fb6A06a15D43830e48cB",
+    "composable": true,
+    "bptIndex": 2,
+    "vaultPoolId": "0xfb2f7ed572589940e24c5711c002adc59d5e79ef000000000000000000000535",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "rewardGauge": "0x6D4bFeb7E5bC4F37Dbc4Eb52B130EE32bc58a35E",
+        "oracleId": "AURA",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "SOL",
+        "decimals": "1e9"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "JitoSOL",
+        "decimals": "1e9"
+      },
+      {
+        "oracleId": "bptToken"
+      }
+    ]
+  },
+  {
     "name": "aura-arb-gyro-ausdc-ausdt",
     "address": "0x125bC5a031B2Db6733bfa35d914ffa428095978B",
     "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",

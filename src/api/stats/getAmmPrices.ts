@@ -622,6 +622,7 @@ const coinGeckoCoins: Record<string, string[]> = {
   'kelp-dao-restaked-eth': ['rsETH'],
   'frax-ether': ['frxETH'],
   'stakestone-ether': ['STONE'],
+  'jito-staked-sol': ['JitoSOL'],
 };
 
 /**

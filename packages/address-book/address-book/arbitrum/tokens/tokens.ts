@@ -1707,6 +1707,21 @@ const _tokens = {
     documentation: 'https://devdocs.silo.finance/',
     bridge: 'arbitrum-canonical',
   },
+  JitoSOL: {
+    name: 'Jito Staked SOL',
+    symbol: 'JitoSOL',
+    oracleId: 'JitoSOL',
+    address: '0x83e1d2310Ade410676B1733d16e89f91822FD5c3',
+    chainId: 42161,
+    decimals: 9,
+    logoURI: '',
+    website: 'https://www.jito.network/staking/',
+    description:
+      "JitoSOL is Solana's first liquid staking product that distributes MEV rewards to holders. Users stake SOL to receive JitoSOL, which provide liquidity and earn staking and MEV rewards, aiming to optimize yield while enhancing Solana's network performance.",
+    documentation: 'https://www.jito.network/docs/jitosol/overview/',
+    bridge: 'wormhole',
+    risks: ['NO_TIMELOCK'],
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;
