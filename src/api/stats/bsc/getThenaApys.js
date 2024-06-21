@@ -3,8 +3,9 @@ const { getRewardPoolApys } = require('../common/getRewardPoolApys');
 const stablePools = require('../../../data/degens/thenaStableLpPools.json');
 const volatilePools = require('../../../data/degens/thenaLpPools.json');
 const gammaPools = require('../../../data/degens/thenaGammaPools.json');
+const ichiPools = require('../../../data/degens/thenaIchiPools.json');
 
-const pools = [...stablePools, ...volatilePools, ...gammaPools];
+const pools = [...stablePools, ...volatilePools, ...gammaPools, ...ichiPools];
 const getThenaApys = async () => {
   return getRewardPoolApys({
     chainId: chainId,
