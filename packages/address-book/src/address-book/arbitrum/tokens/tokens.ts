@@ -2051,4 +2051,18 @@ export const tokens = {
     description: 'Synthetix Arbitrum-native stablecoin.',
     bridge: 'native',
   },
+  GHO: {
+    name: 'Gho Token',
+    symbol: 'GHO',
+    oracleId: 'GHO',
+    address: '0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33',
+    chainId: 42161,
+    decimals: 18,
+    logoURI: '',
+    website: 'https://aave.com/',
+    documentation: 'https://docs.aave.com/faq/gho-stablecoin',
+    bridge: 'native',
+    description:
+      'GHO is a decentralized multi-collateral stablecoin that is fully backed, transparent and native to the Aave Protocol.',
+  },
 } as const satisfies Record<string, Token>;

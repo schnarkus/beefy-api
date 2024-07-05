@@ -1,5 +1,43 @@
 [
   {
+    "name": "balancer-gyro-arb-stataarbusdcn-gho",
+    "address": "0x46472CBA35E6800012aA9fcC7939Ff07478C473E",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x6e654787251ae77Fe1873f93A5f220E00afa90E8",
+    "vaultPoolId": "0x46472cba35e6800012aa9fcc7939ff07478c473e00020000000000000000056c",
+    "lsIndex": 0,
+    "lsUrl": "https://api.balancer.fi/pools/42161/0x46472cba35e6800012aa9fcc7939ff07478c473e00020000000000000000056c",
+    "dataPath": "$.apr.tokenAprs.breakdown['0x7cfadfd5645b50be87d546f42699d863648251ad']",
+    "lsAprFactor": 1,
+    "divisor": 10000,
+    "balancerApi": true,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x6e654787251ae77Fe1873f93A5f220E00afa90E8",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0x6e654787251ae77Fe1873f93A5f220E00afa90E8",
+        "rewardToken": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+        "oracleId": "ARB"
+      }
+    ],
+    "tokens": [
+      {
+        "address": "0x7CFaDFD5645B50bE87d546f42699d863648251ad",
+        "oracleId": "stataArbUSDCn",
+        "decimals": "1e6"
+      },
+      {
+        "address": "0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33",
+        "oracleId": "GHO",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
     "name": "balancer-gyro-arb-wsteth-weth",
     "address": "0x7967FA58B9501600D96bD843173b9334983EE6E6",
     "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
